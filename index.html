@@ -1,7 +1,12 @@
 <style>
 
     /* 3 ways to include CSS styles: Internal */
+#h2 {
+    position: fixed;
+    bottom:50%;
+    width:100%;
 
+}
 .search {
     width: 600px;
     height: 40px;
@@ -75,8 +80,10 @@
 
     <!-- 2 ways to move a div: HTML-->
 
-    <center>
+        <center>
+        <h2 id="h2">
 <img alt="Google Logo" src="googlelogo_color_272x92dp.png" id="logo">
+<br>
 <br>
 <form action="https://www.google.com" id="google-search-form">
   <input class="search" name="search" type="text" title="search">
@@ -85,9 +92,10 @@
 
 <!-- 3 ways to include CSS styles: Inline -->
 
-<input style="color: black;" class="button" value="Google Search" aria-label="Google Search" name="button" type="submit">
+<input style="color: black;border-width:0;height:35px" class="button" value="Google Search" aria-label="Google Search" name="button" type="submit">
     </form>
-</center>
+        </h2>
+       </center>
 </body>
 <footer>
     <div class="navbar">
