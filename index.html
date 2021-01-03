@@ -23,17 +23,14 @@
     }
 }
 .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
+    display:flex;
     overflow: hidden;
     background-color:rgb(243, 243, 243);
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 5%;
-
+    align-items:center;
 }
 .navbar a {
     float: left;
@@ -45,6 +42,20 @@
 .navbar a:hover {
     text-decoration: underline;
 }
+#left {
+    display:flex;
+    float: left;
+    width: 50%;
+    justify-content:center;
+    column-gap:10px;
+    }
+#right {
+    display:flex;
+    float: right;
+    width: 50%;
+    justify-content:center;
+    column-gap:10px
+    }
 </style>
 <html>
 <head>
@@ -66,13 +77,17 @@
 </center>
 </body>
 <footer>
-    <div class="navbar" id="navbar">
-<a href="#">Fake Link</a>
-<a href="#">Fake Link</a>
-<a href="#">Fake Link</a>
-<a href="#">Fake Link</a>
-<a href="#">Fake Link</a>
-<a href="#">Fake Link</a>
+    <div class="navbar">
+        <div id="left">
+            <a href="#">Fake Link</a>
+            <a href="#">Fake Link</a>
+            <a href="#">Fake Link</a>
+        </div>
+        <div id="right">
+            <a href="#">Fake Link</a>
+            <a href="#">Fake Link</a>
+            <a href="#">Fake Link</a>
+        </div>
     </div>
 </footer>
 </html>
