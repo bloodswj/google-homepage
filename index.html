@@ -9,6 +9,7 @@
     border-style: solid;
     padding: 1px;
     outline: none;
+    padding: 20px;
 }
 .search:hover {
     animation-name: border;
@@ -22,8 +23,23 @@
     }
 }
 .navbar {
-    background-color:rgb(190, 189, 189);
+    overflow: hidden;
+    background-color:rgb(243, 243, 243);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
 
+}
+.navbar a {
+    float: left;
+    display: block;
+    color:rgb(92, 92, 92);
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-decoration: underline;
 }
 </style>
 <html>
@@ -47,7 +63,7 @@
 </body>
 <footer>
     <div class="navbar" id="navbar">
-
+<a href="#" class="navbar">Fake Link</a>
     </div>
 </footer>
 </html>
