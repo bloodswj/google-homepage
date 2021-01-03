@@ -1,5 +1,23 @@
 <style>
-
+.search {
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: rgb(190, 189, 189);
+    border-style: solid;
+    padding: 1px;
+}
+.search:hover {
+    animation-name: border;
+    animation-duration:10ms;
+    animation-fill-mode: forwards;
+}
+@keyframes border {
+    100% {
+        border-width: 2px;
+    }
+}
 </style>
 <html>
 <head>
@@ -10,9 +28,13 @@
     <center>
 <img alt="Google Logo" src="googlelogo_color_272x92dp.png" id="logo">
 <br>
+<form action="https://www.google.com" id="google-search-form"></form>
 <input class="search" name="search" type="text" title="search">
+<br>
+<br>
 <input class="button" value="Google Search" aria-label="Google Search" name="button" type="submit">
-   </center>
+    </form>
+</center>
 </body>
 
 </html>
