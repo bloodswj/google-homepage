@@ -1,6 +1,3 @@
-<style>
-
-    /* 3 ways to include CSS styles: Internal */
 #h2 {
     position: fixed;
     bottom:50%;
@@ -49,7 +46,6 @@
 .navbar a:hover {
     text-decoration: underline;
 }
-    /* 2 ways to move a div: CSS */
 
 #left {
     font:aria;
@@ -75,8 +71,18 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 li {
-    display: inline;
+    text-decoration:none;
 }
-</style>
+.right {
+    float:right;
+}
+.left {
+    float:left;
+}
+#gmail {
+    list-style-type:unset
+    text-decoration: none;
+}
