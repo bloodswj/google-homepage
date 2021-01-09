@@ -6,22 +6,24 @@
 </head>
 
 <header>
-
-    <!-- do a div container tomorrow, this isn't working-->
-    <ul>
-        <li class="left" id="about"><a href="#">About</a></li>
-        <li class="left" id="store"><a href="#">Store</a></li>
-        <li class="right" id="circleJ"><a href="#"><img class="circleJ" src="circleJ.png"></a></li>
-        <!--Copied from dev tools inspect element-->
-        <li class="right" id="apps"><a href="#"><svg class="apps_button" focusable="false" viewBox="0 0 24 24">
-            <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
-            </svg>
-            </a>
-            </li>
-        <li class="right" id="images"><a href="#">Images</a></li>
-        <li class="right" id="gmail"><a href="#">Gmail</a></li>
-    </ul>
-
+    <div class="top_navbar">
+        <div id="top_left">
+            <div class="about" id="about"><a href="#">About</a></div>
+            <div class="store" id="store"><a href="#">Store</a></div>
+        </div>
+        <div id="top_right">
+            <div class="gmail" id="gmail"><a href="#">Gmail</a></div>
+            <div class="images" id="images"><a href="#">Images</a></div>
+            <!--Copied from dev tools inspect element-->
+            <div class="apps" id="apps"><a href="#"><svg class="apps_button" focusable="false" viewBox="0 0 24 24">
+                <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                </svg>
+                </a>
+                </div>
+            <div class="circleJ" id="circleJ"><a href="#"><img class="circleJ" src="circleJ.png"></a></div>
+            
+        </div>
+    </div>
 </header>
 
 <body>
